@@ -1,5 +1,5 @@
-README
-======
+ThermoModel
+===========
 
 Creating input files
 --------------------
