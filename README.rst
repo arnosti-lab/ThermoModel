@@ -6,6 +6,10 @@ Creating input files
 We are including the code we used to generate our own inputs, but the folder also contains all of the input files generated so you can write your own code to generate them as needed.
 We are including 62 input files (38 that we fit on and 59 of which we generated predictions for).  Supplementary table T2 specifies which input file corresponds to each construct.  The code below also generates 62 files, which can be changed on line 911 of ``MASTcreateInputs.cpp``.
 
+In order to run this code, you will need to have the mast executable in the create_inputs directory.
+To do this, download the MEME suite, and follow the instructions to compile mast.
+
+
 In the folder create_inputs:
 
 ``make MAST``
