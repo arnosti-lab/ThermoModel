@@ -4,7 +4,7 @@ ThermoModel
 Creating input files
 --------------------
 We are including the code we used to generate our own inputs, but the folder also contains all of the input files generated so you can write your own code to generate them as needed.
-We are including 62 input files (38 that we fit on and 59 of which we generated predictions for).  Supplementary table T2 specifies which input file corresponds to each construct.  The code below also generates 62 files, which can be changed on line 911 of ``MASTcreateInputs.cpp``.
+We are including 60 input files (38 that we fit on and 59 of which we generated predictions for).  Supplementary file 1 specifies which input file corresponds to each construct.  The code below also generates 60 files, which can be changed on line 910 of ``MASTcreateInputs.cpp``.
 
 In order to run this code, you will need to have the mast executable in the create_inputs directory.
 To do this, download the MEME suite, and follow the instructions to compile mast.
@@ -48,12 +48,12 @@ For models with fewer parameters, the can be done locally in a reasonable amount
   ``ThermoExample.c``
 	line 18: typeC = type of cooperativity (same numbers used for create_inputs flags), numC = number of cooperativity parameters
 	
-  line 19: typeQ = type of quenching (same numbers used for create_inputs flags), numQ = number of quenching parameters
+  	line 19: typeQ = type of quenching (same numbers used for create_inputs flags), numQ = number of quenching parameters
 	
 - Optional changes:
 
   ``Thermomodel.cpp``
-	line 970 - 971: the 38 refers to the number of constructs the model is fitting on (line 970 also contains a list of which constructs they are).
+	line 627-628: the 38 refers to the number of constructs the model is fitting on (line 627 also contains a list of which constructs they are).
 	If you want to change how many constructs the model is fitting on or which ones, adjust these two lines accordingly
 
   Make sure your makefile uses the correct compiler for the system you will be compiling and running this code on (currently set to use the GNU g++ compiler; we used the Intel C++ compiler for our runs).
