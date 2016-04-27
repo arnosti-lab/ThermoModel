@@ -60,6 +60,10 @@ For models with fewer parameters, the can be done locally in a reasonable amount
 	
 - Running the code:
   
+  ``make read``
+  
+  ``./read``
+  
   ``make``
 
   ``./evo``
