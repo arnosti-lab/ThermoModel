@@ -1,0 +1,5 @@
+# tuple	frequency_non_coding
+a	0.28 
+c 	0.22 
+g 	0.22 
+t 	0.28
